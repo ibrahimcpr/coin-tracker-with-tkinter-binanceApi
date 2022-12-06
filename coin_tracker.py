@@ -25,7 +25,6 @@ cbox.place(x=150,y=0)
 state=["HIGHER","LOWER","NONE"]
 cbox_state=ttk.Combobox(root,values=state)
 cbox_state.place(x=150,y=100)
-currencies = ["BTCUSDT", "DOGEUSDT", "LTCUSDT","BNBUSDT"]
 warn=Entry(root)
 warn_label = Label(root,text="Set limit price:",font=("Arial",12,"bold"))
 warn_label.place(x=25,y=50)
